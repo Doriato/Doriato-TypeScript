@@ -1,0 +1,37 @@
+{
+  "name": "@doriato/core",
+  "version": "1.0.0",
+  "description": ":ocean: TypeScript Implementation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doriato/Doriato-TypeScript.git"
+  },
+  "keywords": [
+    "Doriato"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Doriato/Doriato-TypeScript/issues"
+  },
+  "homepage": "https://github.com/Doriato/Doriato-TypeScript#readme",
+  "devDependencies": {
+    "@sudoo/io": "^1.8.0",
+    "@sudoo/triforce": "^2.7.14"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
