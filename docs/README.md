@@ -6,3 +6,11 @@
 [![downloads](https://img.shields.io/npm/dm/@doriato/core.svg)](https://www.npmjs.com/package/@doriato/core)
 
 :ocean: TypeScript Implementation
+
+## Install
+
+```sh
+yarn add @doriato/core
+# Or
+npm install @doriato/core --save
+```
